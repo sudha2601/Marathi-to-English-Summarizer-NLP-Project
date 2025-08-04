@@ -6,6 +6,7 @@ RajyaSaar is a Natural Language Processing (NLP) project that leverages the mult
 This project is fine-tuned specifically for summarizing long and complex political content written in Marathi, making it easier for readers to grasp the core message quickly. It has been trained and evaluated on a custom dataset of political articles with corresponding human-written summaries.
 
 💡 **What It Does**
+
 🗳️ Takes Marathi political text as input and generates short, accurate summaries in Marathi.
 
 ⚙️ Uses mBART-50, a multilingual sequence-to-sequence model by Facebook AI, fine-tuned for the Marathi language.
@@ -17,6 +18,7 @@ This project is fine-tuned specifically for summarizing long and complex politic
 📁 Outputs include a fine-tuned model and tokenizer, which are saved and zipped for deployment.
 
 🧰 **Tech Stack**
+
 Model: facebook/mbart-large-50
 
 Libraries: Transformers, Datasets, PyTorch, Evaluate, ROUGE Score, Pandas
